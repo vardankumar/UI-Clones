@@ -1,1 +1,1 @@
-https://github.com/vardankumar/UI-Clones/tree/master
+https://verdan-kumar-salt-n-pepper.netlify.app/
