@@ -1,0 +1,471 @@
+.navbar{
+    color: #000 !important;
+    background-color: #fff;
+    height: 100px;
+}
+
+/* .navbar > ul{
+    list-style: none !important;
+    text-decoration: none !important;
+} */
+
+/* .btn {
+    background-color: #75BF7A !important;
+    color: #fff;
+} */
+
+
+.theme-btn{
+    background-color: #75BF7A !important;
+    color: #fff;
+    border: 0;
+    border-radius: 5.95px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.nav-item > a {
+    font-weight: 500;
+    color: #000;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+
+}
+
+.slide-content {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    height: 100%;
+}
+
+.store-icons {
+    margin-top: 40px;
+}
+
+
+.slide-content > div > h1 {
+    font-size: 60.73px;
+    font-weight: 800;
+    color: #000;
+    line-height: 65.91px;
+}
+
+.slide-content > div > p {
+    color: #9E9DA2;
+    font-weight: 500;
+    /* font-size: 24px; */
+    line-height: 28px;
+}
+
+.slide > img {
+    width: 70%;
+}
+
+.form{
+    background: #75BF7A;
+    justify-content: center !important;
+    color: #fff;
+    height: 130px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.p-sec{
+    /* border: 1px solid black; */
+    width: 40%;
+}
+
+.form > p{
+    width: 20%;
+    font-size: 20px !important;
+}
+
+.frontend-form{
+    border-radius: 4.39px;
+    border: 0;
+    padding: 10px 20px;
+    flex-grow: 2;
+}
+
+
+.input-section input{
+    width: 60%;
+    height: 40px;
+    border: 0;
+    border-radius: 4.5px;
+    padding: 10px 50px;
+}
+
+form > input{
+    padding-left: 40px;
+}
+
+.form-button{
+    border-radius: 4.39px;
+    border: 0;
+    padding: 10px 20px;
+    font-weight: 600;
+    background-color: #000;
+    color: #fff;
+}
+
+.heading-sec {
+    margin-bottom: 75px;
+}
+
+.h-works{
+    margin-top: 50px !important;
+    margin-bottom: 120px !important;
+}
+.h-works h1{
+    text-align: center;
+    font-weight: 800;
+}
+.h-works p {
+    text-align: center;
+    color: #9E9DA2;
+    /* width: 50%; */
+}
+
+.h-works span{
+    color: #75BF7A;
+}
+
+.left-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin-top: 30px !important;
+}
+
+.left-top span{
+    position: relative;
+    right: 42px;
+    top: 4px;
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.left-top h4 {
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.left-top p {
+    text-align: end;
+}
+.right-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 30px !important;
+}
+
+.right-top span{
+    position: relative;
+    right: 42px;
+    top: 4px;
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.right-top h4 {
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.right-top p {
+    text-align: start;
+}
+
+.mid-circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    height: 300px;
+    width: 300px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #75BF7A;
+}
+
+.mob-img{
+    display: none;
+}
+
+.tere-benefits span {
+    color: #75BF7A
+}
+
+.tere-benefits h1{
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+.benefit-card-left {
+    background-color: #f8f5f5;
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.benefit-card-left h3{
+    color: #75BF7A;
+    font-size: 40px;
+    padding: 0 12px;
+}
+
+.benefit-card-left img{
+    width: 100px;
+    height: 100px;
+}
+.benefit-card-left p {
+    color: #000000 !important;
+    font-weight: 600 !important;
+}
+.benefit-card-right p {
+    color: #000000 !important;
+    font-weight: 600 !important;
+}
+
+.benefit-card-right {
+    background-color: #f8f5f5;
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    margin-left: 120px;
+}
+
+.benefit-card-right h3{
+    color: #75BF7A;
+    font-size: 40px;
+    padding: 0 12px;
+}
+
+.benefit-card-right img{
+    width: 100px;
+    height: 100px;
+}
+
+.card-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    margin-top: 150px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top img {
+    object-fit: contain;
+}
+
+.footer-bottom{
+    height: 150px;
+}
+
+.footer-bottom p {
+    color: #75BF7A;
+    text-align: center;
+}
+
+@media only screen and (max-width: 990px) {
+    .navbar {
+        height: auto;
+    }
+
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slide > img{
+        width: 100%;
+        height: 400px;
+        object-fit: contain;
+    }
+
+    .slide-content > div > h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .slide-content{
+        padding: 50px 20px;
+        text-align: center;
+    }
+    .store-icons > img{
+        width: 140px;
+    }
+
+    .theme-slide{
+        flex-direction: column-reverse;
+    }
+
+    .form{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        justify-content: start;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .p-sec{
+        width: 100%;
+    }
+
+    .p-sec > p{
+        line-height: 25px;
+        font-size: 25px;
+    }
+
+    .input-section{
+        width: 100%;
+    }
+
+    .input-section input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .input-section button {
+        width: 100%;
+    }
+
+    .left-top{
+        width: 100%;
+    }
+
+    .right-top{
+        width: 100%;
+    }
+
+    .left-top{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .right-top{
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .left-top h4{
+        text-align: center;
+    }
+
+    .left-top p{
+        text-align: center;
+    }
+
+    .right-top h4{
+        text-align: center;
+    }
+
+    .right-top p{
+        text-align: center;
+    }
+
+    .mob-img{
+        display: block;
+        z-index: 20;
+        height: auto;
+        position: absolute;
+        top: 1920px;
+        left: 92px;
+        /* margin: 30px 0; */
+    }
+
+    .circle{
+        /* height: auto; */
+        margin: 100px 0;
+    }
+
+    .benefit-card-left{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        background-color: #fff;
+    }
+
+    .benefit-card-right {
+        flex-direction: column;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-left: 0;
+        width: auto;
+        background-color: #fff;
+    }
+
+    .footer-top{
+        flex-direction: column;
+        /* gap: 7; */
+    }
+
+    .footer-top img {
+        margin: 5px;
+    }
+
+}
+
+
+
+/* <div class="container form d-flex justify-content-center align-items-center text-center ">
+<p class>
+      Let’s go. Get a link 
+to download the app.
+    </p>
+    <form action="">
+      <input class="frontend-form" type="text" placeholder="Enter a phone number">
+      <button class="form-button">
+        APPLY TO DRIVE
+      </button>
+    </form>
+  </div> */
