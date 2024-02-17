@@ -1,0 +1,108 @@
+form p {
+    margin: 5px 15px;
+    font-weight: 700;
+}
+
+ul a {
+    font-weight: 600 !important;
+}
+
+ul span {
+    font-weight: 400 !important;
+}
+
+nav a{
+    margin-right: 10px;
+}
+
+.header{
+    width: 100%;
+    height: 300px;
+}
+
+.header img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.second-image{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -430px;
+    left: 800px;
+}
+
+.banner {
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 4;
+}
+
+.banner h1 {
+    color: #fff;
+}
+
+.popup{
+    height: 190px;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    /* margin-bottom: 60px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buttons-pop button{
+    margin: 10px 20px;
+    padding: 5px 20px;
+    border: none;
+    background-color: #fff;
+}
+
+.delivery {
+    background-color: #e66012e3;
+}
+
+form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form input{
+    border: none;
+    background-color: ghostwhite !important;
+    width: 290px;
+    padding: 15px 20px;
+    border-radius: 12px;
+}
+
+form button{
+    background-color: orange;
+    padding: 15px 35px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-images{
+    width: 100%;
+    height: auto !important;
+    margin-top: -440px;
+}
+
+.main-image > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+}
